@@ -8,7 +8,7 @@ const Header = () =>{
         <Link to="/" className="item">StreamPlus</Link>
         <div className = "right menu">
         <Link to="/" className="item">All Streams</Link>
-        <GoogleAuth />
+        <GoogleAuth className="item" />
         </div>
     </div>
     
