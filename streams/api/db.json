@@ -1,45 +1,10 @@
 {
   "streams": [
     {
-      "title": "title_1",
-      "description": "description_1",
-      "id": 1
-    },
-    {
-      "title": "title_1",
-      "description": "description_1",
-      "id": 2
-    },
-    {
-      "title": "title_1",
-      "description": "description_1",
-      "id": 3
-    },
-    {
-      "title": "stream",
-      "description": "second stream",
-      "id": 4
-    },
-    {
-      "title": "I need to be deleted",
-      "description": "delete me",
-      "id": 5
-    },
-    {
-      "title": "this",
-      "description": "that",
-      "id": 6
-    },
-    {
-      "title": "how",
-      "description": "who",
-      "id": 7
-    },
-    {
-      "title": "titttle",
-      "description": "test",
+      "title": "title",
+      "description": "o",
       "userId": "112156251205047573459",
-      "id": 8
+      "id": 13
     }
   ]
 }
