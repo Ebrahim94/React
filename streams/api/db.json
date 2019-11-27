@@ -5,6 +5,18 @@
       "description": "o",
       "userId": "112156251205047573459",
       "id": 13
+    },
+    {
+      "title": "This a new stream",
+      "description": "I have created this stream to test out how my application works.",
+      "userId": "112156251205047573459",
+      "id": 14
+    },
+    {
+      "title": "I am going to make a network request",
+      "description": "network request created",
+      "userId": "112156251205047573459",
+      "id": 15
     }
   ]
 }
