@@ -4,6 +4,7 @@ import { fetchStream, editStream } from '../../actions'
 import StreamForm from './StreamForm'
 import _ from 'lodash'
 
+//Edit the stream
 class StreamEdit extends React.Component {
     componentDidMount() {
         this.props.fetchStream(this.props.match.params.id)
