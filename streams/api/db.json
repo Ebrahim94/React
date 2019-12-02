@@ -11,10 +11,22 @@
       "id": 14
     },
     {
-      "title": "I am going to make a network request",
-      "description": "This has been edited",
+      "title": "I am editing this title",
+      "description": "This is a description for the stream",
       "userId": "112156251205047573459",
       "id": 15
+    },
+    {
+      "title": "This is a title for this stream",
+      "description": "I would like this to be the stream's description.",
+      "userId": "112156251205047573459",
+      "id": 16
+    },
+    {
+      "title": "this is a title",
+      "description": "this is a descrip",
+      "userId": "112156251205047573459",
+      "id": 17
     }
   ]
 }
