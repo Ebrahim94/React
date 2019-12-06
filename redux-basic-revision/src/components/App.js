@@ -3,9 +3,8 @@ import FetchedData from './FetchedData'
 import { request } from '../actions'
 import { connect } from 'react-redux'
 
-class App extends React.Component {
+const App = () => {
 
-    render() {
         return (
             <div>
             <div className="ui raised very padded text container segment" style={{ marginTop: "10px", textAlign: "center" }}>
@@ -19,7 +18,7 @@ class App extends React.Component {
         )
     }
 
-}
+
 
 const mapStateToProps = (state) =>{
     return {req : state.req}

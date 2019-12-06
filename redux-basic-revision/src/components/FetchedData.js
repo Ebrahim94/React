@@ -1,11 +1,11 @@
-import React from 'react'
+import React, {useState, useEffect} from 'react'
 import { connect } from 'react-redux'
 import { getPosts, getToDos } from '../actions'
 
-class FetchedData extends React.Component{
+const FetchedData = () =>{
 
     
-    showData () {
+    function showData () {
         return this.props.data.map(datum =>{
             return(
                 <li>{datum.title}</li>
@@ -13,11 +13,7 @@ class FetchedData extends React.Component{
         })
     }
 
-    componentDidMount(){
-        this.props.getPosts()
-    }
-
-    componentDidUpdate(prevProps){
+    useEffect(() =>{
 
         if (prevProps.req != this.props.req){
             if (this.props.req === "posts"){
@@ -26,9 +22,8 @@ class FetchedData extends React.Component{
                 this.props.getToDos()
             }
         }
-    }
+    }, this.props.req)
 
-    render(){
         if (!this.props.data){
             return(
                 <div className = "ui active dimmer" style = {{ height : "100vh"}}>
@@ -44,7 +39,7 @@ class FetchedData extends React.Component{
             </div>
         )
     }
-}
+
 
 const mapStateToProps = (state) =>{
     return {data: state.data.data, req : state.req}
